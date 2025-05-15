@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bengkel Motor Amba</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #333333;
+      padding: 40px 20px;
+      color: #838801;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .nav-links {
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin-bottom: 20px;
+    }
+
+    .nav-links a {
+      color: rgb(122, 112, 0);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .main-content {
+      flex: 1;
+      background: linear-gradient(to right, rgba(255, 166, 0, 0), rgba(30, 30, 30, 0)),
+        url('df6572cc-e297-45c4-b690-d21eaacb1ea2.jpg') center/cover no-repeat;
+      padding: 40px;
+      overflow-y: auto;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      color: rgb(152, 129, 14);
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin: 20px 0;
+      color: rgb(255, 255, 255);
+    }
+
+    .buttons button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .buttons .red {
+      background-color: #ffff4d;
+      color: rgb(255, 255, 255);
+    }
+
+    .buttons button:not(.red) {
+      background-color: #ffa60000;
+      color: rgb(105, 88, 0);
+    }
+
+    .cta {
+      background-color: rgba(161, 148, 6, 0);
+      padding: 20px;
+      border-radius: 15px;
+      color: white;
+      text-align: center;
+    }
+
+    .cta button {
+      background-color: #7a7a0e00;
+      border: none;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .content {
+      background-color: rgba(147, 122, 0, 0);
+      padding: 30px;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
+    .content h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .content a {
+      color: rgb(255, 166, 0);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <div class="logo">BENGKEL <br><strong>MOTOR AMBA</strong><br>— SEJAK 2010 —</div>
+      <ul class="nav-links">
+        <li><a href="index.html" target="_blank">BERANDA</a></li>
+        <li><a href="tentangkami.html" target="_blank">TENTANG KAMI</a></li>
+        <li><a href="layanan.html" target="_blank">LAYANAN</a></li>
+        <li><a href="harga.html" target="_blank">DAFTAR HARGA</a></li>
+        <li><a href="kontak.html" target="_blank">KONTAK</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-text">
+          <h1><strong>Bengkel</strong> Motor</h1>
+          <p>Servis motor terpercaya dan profesional</p>
+          <div class="buttons">
+            <button><a href="tentangkami.html" target="_blank" style="color: #fff;">tentangkami</a></button>
+            <button ><a href="layanan.html" target="_blank" style="color: #fff;">layanan</a></button>
+          </div>
+        </div>
+        <div class="cta">
+          <p>Buruan!<br>Rawat motormu sekarang.</p>
+          <button> <a href="kontak.html" target="_blank" style="color: #fff;">chat me</a></button>
+        </div>
+      </section>
+
+      <section class="content">
+        <h2 style="color: #838801;">Mekanik Terbaik</h2>
+        <p style="color: #fff;">
+          Bengkel Motor Amba menyediakan layanan servis motor terbaik sejak 2010.
+          Dengan teknisi berpengalaman dan peralatan modern, kami siap membantu perawatan dan perbaikan motor Anda.
+          Kunjungi laman <a href="layanan.html" target="_blank">layanan</a> kami untuk info lengkap.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
